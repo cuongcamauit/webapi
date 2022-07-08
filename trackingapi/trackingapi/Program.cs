@@ -12,8 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<IssueDbContext>(
     o => o.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
-builder.Services.AddScoped<IIssueResponsitory, IssueResponsitory>();
+//builder.Services.AddScoped<IIssueResponsitory, IssueResponsitory>();
+builder.Services.AddScoped<IIssueResponsitory, IssueResponsitoryInMemory>();
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
