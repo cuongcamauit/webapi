@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj": {}
+    "C:\\Users\\DELL\\OneDrive\\c#\\webapi\\trackingapi\\trackingapi\\trackingapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj": {
+    "C:\\Users\\DELL\\OneDrive\\c#\\webapi\\trackingapi\\trackingapi\\trackingapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\OneDrive\\c#\\webapi\\trackingapi\\trackingapi\\trackingapi.csproj",
         "projectName": "trackingapi",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj",
+        "projectPath": "C:\\Users\\DELL\\OneDrive\\c#\\webapi\\trackingapi\\trackingapi\\trackingapi.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\trackingapi\\trackingapi\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\OneDrive\\c#\\webapi\\trackingapi\\trackingapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

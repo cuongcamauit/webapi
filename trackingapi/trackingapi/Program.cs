@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using trackingapi.Data;
+using trackingapi.Server;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<IssueDbContext>(
     o => o.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
+builder.Services.AddScoped<IIssueResponsitory, IssueResponsitory>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
